@@ -16,6 +16,22 @@ Supports **images**, **videos**, and **real-time webcam detection** with a clean
 ---
 
 ## 📂 Project Structure
+YOLO-Streamlit-App/
+│── app.py # Main Streamlit application
+│── requirements.txt # List of required dependencies
+│── README.md # Project documentation
+│
+├── model/ # Pre-trained or custom YOLO weights
+│ └── yolov8n.pt
+│
+├── dataset/ # Custom dataset (optional for training)
+│ ├── images/ # Training/validation images
+│ └── labels/ # YOLO annotation files
+│
+└── runs/ # YOLO training results (auto-generated)
+├── detect/ # Detection results
+├── train/ # Training logs and checkpoints
+└── weights/ # Saved trained weight
 
 1. Clone the repository:
    ```bash
